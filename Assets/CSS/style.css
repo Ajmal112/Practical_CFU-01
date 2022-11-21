@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Barlow Condensed';
+  }
+  .logo {
+    padding-top:50px;
+    padding-left:80px;
+  }
+  .navlinks {
+    padding-top:50px;
+    padding-right:150px;
+    
+  }
+  a {
+    justify-content: space-between;
+    color:black;
+    text-decoration: none;
+  }
+  .btnnav {
+    background-color: purple;
+    color:white;
+    width:150px;
+    height:50px;
+    border-radius: 5px;
+    background-color: hsl(255deg 43% 28%);
+    cursor: pointer;
+  }
+  .btn2 {
+    background-color: purple;
+    color:white;
+    width:500px;
+    height:40px;
+    border-radius: 20px;
+    margin-top:20px;
+    margin-left:80px;
+    background-color: hsl(255deg 43% 28%);
+
+  }
+  .anker1 {
+    color:white;
+    text-decoration: dashed;
+border-bottom:1px solid white;
+}
+.firsth1 {
+    font-size: 55px;
+    font-weight:400;
+    font-family: 'Barlow Condensed';
+    margin-left:80px;
+    margin-top:50px;
+    color:hsl(230, 29%, 20%);
+}
+.firstp {
+    font-family: sans-serif;
+    margin-left:80px;
+   
+    color:hsl(230, 29%, 20%);
+}
+input[type=email] {
+    width:250px;
+    height:45px;
+    margin-left:80px;
+}
+
+.titleimage {
+    display: flex;
+    flex-direction: row;
+}
+.illustration {
+    padding-left:100px;
+    padding-bottom:0px;
+    vertical-align: center;
+    position: relative;
+    bottom:55px;
+}
+.firsth4 {
+    font-family: sans-serif;
+    margin-top:20px;
+    margin-left:80px;
+    font-weight: 700;
+}
+.icons {
+    margin-left:50px;
+    width:550px;
+    height:50px;
+    margin-right:20px;
+    cursor: pointer;
+}
+body {
+    font-family: 'Barlow';
+    background-color:  hsl(207, 33%, 95%);
+}
